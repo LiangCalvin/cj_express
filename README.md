@@ -16,3 +16,4 @@ A reusable `TagInput` component built with React and TypeScript, allowing users 
 
    ```bash
    npm install
+   npm run dev
