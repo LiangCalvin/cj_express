@@ -1,0 +1,53 @@
+.tag-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: border-color 0.2s ease;
+  }
+  
+  .tag-input-container:focus-within {
+    border-color: #4096ff;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    background-color: #f0f4ff;
+    color: #1e40af;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  
+  .remove-button {
+    background: none;
+    border: none;
+    color: #1e40af;
+    margin-left: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .remove-button:hover {
+    color: #ef4444;
+  }
+  
+  .tag-input {
+    flex: 1;
+    border: none;
+    min-width: 120px;
+    font-size: 14px;
+    padding: 6px;
+    outline: none;
+    color: #333;
+    background-color: transparent;
+  }
+  
